@@ -1,0 +1,6 @@
+services:
+  web:
+    container_name: demo-django-devops
+    image: docker.io/profedanielduoc/demo-django-devops2:latest
+    ports:
+      - "8001:8000"
