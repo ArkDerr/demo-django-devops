@@ -13,7 +13,7 @@ jobs: # Un workflow se compone de jobs (tareas)
     env:
 # Nombre base de la imagen en Docker Hub (se arma con el usuario del Secret)
 # Define variables que usarán los pasos siguientes
-      IMAGE_NAME: docker.io/${{ secrets.DOCKERHUB_USERNAME }}/demo-django-devops
+      IMAGE_NAME: docker.io/${{ secrets.DOCKERHUB_USERNAME }}/demo-django-devops1
 
     steps:
 # Paso 1: bajar el código del repo al runner
